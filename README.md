@@ -13,8 +13,8 @@ Missing Values Handled: Missing values (NaN) in columns such as director, cast, 
 
 Duration Information Separated and Converted
 The original mixed 'duration' information has been successfully split into two distinct, numerical columns:
-    ->no_of_seasons: Stores the number of seasons for TV shows, converted to a numerical type (e.g., float64 or int64).
-    ->durations_in_min: Stores the duration in minutes for movies, converted to a numerical type (e.g., float64 or int64).
+    no_of_seasons: Stores the number of seasons for TV shows, converted to a numerical type (e.g., float64 or int64).
+    durations_in_min: Stores the duration in minutes for movies, converted to a numerical type (e.g., float64 or int64).
 
 Erroneous duration values found in the original rating column were correctly migrated to durations_in_min.
 
